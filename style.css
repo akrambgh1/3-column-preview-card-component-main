@@ -93,7 +93,7 @@ color: hsl(184, 100%, 22%);
         flex-direction: column;
         border-radius: 5px;
         display: flex;
-        
+        margin: 20px 10px 20px 10px;
         
         overflow: scroll;
     }
