@@ -84,14 +84,26 @@ color: hsl(184, 100%, 22%);
     *{
         overflow: scroll;
     }
+    body{
+        
+        width: 100vw;
+    }
     .container{
+        width: 100vw;
         flex-direction: column;
         border-radius: 5px;
         display: flex;
-        margin-left: 0px;
-        margin-right:0px;
+        margin: 20px 10px 20px 10px;
+        
         overflow: scroll;
     }
+    .container div{
+        height: 450px;
+    width: auto;
+
     }
-  
-    
+    .container div a{
+    top: 70px;
+
+}
+}
