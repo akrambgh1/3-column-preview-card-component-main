@@ -17,7 +17,6 @@ body{
     
 }
 .container{
-    background: red;
     border-radius: 5px;
     display: flex;
     margin-left: 300px;
@@ -62,7 +61,7 @@ body{
 
 .sedans{
     padding: 30px;
-   background:hsl(31, 77% , 52%);
+    background:hsl(31, 77% , 52%);
 }
 .sedans a{
     color: hsl(31, 77% , 52%);
@@ -75,8 +74,24 @@ color: hsl(184, 100%, 22%);
 }
 .luxury{
     
-   background: hsl(179, 100%, 13%);
+    background: hsl(179, 100%, 13%);
 }
 .luxury a{
     color: hsl(184, 100%, 22%);
 }
+@media screen and (max-width: 800px) {
+    
+    *{
+        overflow: scroll;
+    }
+    .container{
+        flex-direction: column;
+        border-radius: 5px;
+        display: flex;
+        margin-left: 0px;
+        margin-right:0px;
+        overflow: scroll;
+    }
+    }
+  
+    
